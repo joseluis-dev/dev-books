@@ -9,19 +9,19 @@ importers:
   .:
     dependencies:
       '@astrojs/react':
-        specifier: ^4.2.4
+        specifier: 4.2.4
         version: 4.2.4(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(jiti@2.4.2)(lightningcss@1.29.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@astrojs/vercel':
-        specifier: ^8.1.3
+        specifier: 8.1.3
         version: 8.1.3(astro@5.7.4(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3))(react@19.1.0)(rollup@4.40.0)
       '@tailwindcss/vite':
         specifier: 4.1.4
         version: 4.1.4(vite@6.3.2(jiti@2.4.2)(lightningcss@1.29.2))
       '@types/react':
-        specifier: ^19.1.2
+        specifier: 19.1.2
         version: 19.1.2
       '@types/react-dom':
-        specifier: ^19.1.2
+        specifier: 19.1.2
         version: 19.1.2(@types/react@19.1.2)
       astro:
         specifier: 5.7.4
@@ -30,10 +30,10 @@ importers:
         specifier: 'file:'
         version: file:(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3)(vite@6.3.2(jiti@2.4.2)(lightningcss@1.29.2))
       react:
-        specifier: ^19.1.0
+        specifier: 19.1.0
         version: 19.1.0
       react-dom:
-        specifier: ^19.1.0
+        specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
       tailwindcss:
         specifier: 4.1.4
@@ -3088,6 +3088,7 @@ snapshots:
   dev-books@file:(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3)(vite@6.3.2(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
       '@astrojs/react': 4.2.4(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(jiti@2.4.2)(lightningcss@1.29.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@astrojs/vercel': 8.1.3(astro@5.7.4(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3))(react@19.1.0)(rollup@4.40.0)
       '@tailwindcss/vite': 4.1.4(vite@6.3.2(jiti@2.4.2)(lightningcss@1.29.2))
       '@types/react': 19.1.2
       '@types/react-dom': 19.1.2(@types/react@19.1.2)
@@ -3107,6 +3108,8 @@ snapshots:
       - '@deno/kv'
       - '@netlify/blobs'
       - '@planetscale/database'
+      - '@remix-run/react'
+      - '@sveltejs/kit'
       - '@types/node'
       - '@upstash/redis'
       - '@vercel/blob'
@@ -3120,18 +3123,22 @@ snapshots:
       - jiti
       - less
       - lightningcss
+      - next
       - rollup
       - sass
       - sass-embedded
       - stylus
       - sugarss
       - supports-color
+      - svelte
       - terser
       - tsx
       - typescript
       - uploadthing
       - use-sync-external-store
       - vite
+      - vue
+      - vue-router
       - yaml
 
   devalue@5.1.1: {}
